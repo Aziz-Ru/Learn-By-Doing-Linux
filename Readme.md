@@ -5,23 +5,56 @@
 sudo apt update
 sudo apt upgrade
 ```
-##  File Management Commands
 
-- pwd   _Get the full path of the current working directory._
+## cpp file Run In Command line
+```
+g++ file name
+./a.out
+```
 
-- cd -    _Navigate to the last directory you were working in._
+## unxip a .tar.gz file 
 
-- cd ~ or  _just cd Navigate to the current user's home directory._
+`tar -xvzf  file_name   `
 
-- cd .. _Go to the parent directory of current directory (mind the space between cd and ..)_
+## install .dev file
+
+`sudo dpkg -i package_name`
+
+## .dev file uninstall 
+
+`sudo dpkg -r package_name`
+
+## .dev file reconfigure 
+
+`sudo dpkg-reconfigure PACKAGE_NAME `
+
+## Instruct dpkg to fix itself
+`sudo dpkg --configure -a` 
+
+- This will instruct apt-get to correct dependencies and continue to configure your packages.
+
+`sudo apt-get -f install`
 
 
-- ls -l    _List the ﬁles and directories in the current directory in long (table) format (It is recommended to ls -l use -l with ls for better readability)_
+## Mount 
+if you need to mount a partition that 
 
-- ls -ld  _List information about the directory dir-name instead of its contents._
+```
+sudo mount /dev/partition_name
 
-- ls -a     _List all the ﬁles including the hidden ones_
+```
 
-- ls -lh    _List the ﬁle sizes in human readable format._
-
-- ls -lR    _Shows all subdirectories recursively._
+### My Laptop Sound Problem
+First Add endof the file *alsa-base.conf* *options snd-hda-intel model=,dell-headset-multi*.To do this:
+```
+Command: sudo nano /etc/modprobe.d/alsa-base.conf
+options snd-hda-intel model=,dell-headset-multi
+```
+Then Install this software pulseaudio,pavucontrol,if your wish to record sound install gnome-sound-recorder.
+```
+sudo apt install pulseaudio  
+sudo apt install pavucontrol 
+sudo apt install gnome-sound-recorder
+sudo apt update
+sudo apt upgrade
+```
