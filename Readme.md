@@ -43,7 +43,9 @@ g++ file name
 
 For summarizing disk usages of the ﬁles in the current directory we use:
 
-`du -sh *`
+```
+du -sh *
+```
 
 
 
