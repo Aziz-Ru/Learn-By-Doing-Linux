@@ -35,6 +35,12 @@ g++ file name
 
 `sudo apt-get -f install`
 
+## Show Partitions 
+
+- List Block Devices `lsblk`
+
+- Using fdisk (View Partition Tables) `sudo fdisk -l`
+
 
 ## Mount 
 if you need to mount a partition that 
