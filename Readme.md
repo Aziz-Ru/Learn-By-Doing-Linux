@@ -102,5 +102,7 @@ For example
 `alias install='sudo apt-get -y install'`
 
 jlnbhjbhhbewfa
-
+## Related 
 [FileSystem](https://github.com/Aziz-Ru/Linux-Problems/blob/main/filesystem.md)
+
+[Connecting to a Wi-Fi network in recovery mode on Ubuntu](https://github.com/kabyadeb/linux_debian/blob/main/connect%20wifi%20in%20recovery%20mode.md)
