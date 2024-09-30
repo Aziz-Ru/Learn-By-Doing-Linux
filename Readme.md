@@ -102,3 +102,5 @@ For example
 `alias install='sudo apt-get -y install'`
 
 jlnbhjbhhbewfa
+
+[FileSystem](https://github.com/Aziz-Ru/Linux-Problems/blob/main/filesystem.md)
