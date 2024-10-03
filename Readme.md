@@ -1,6 +1,17 @@
+# Linux
+
+## Shortcuts                                                    
+- open Terminal ``Ctrl+Alt+T
+
+## Directory naviagtion
+- pwd   get the present working directory
+- cd    change directory
+- cd ~   change directory to home
+- cd ..  back to parent directory
+  
 ## List Of Necessary Commands
 
-1. TO Update & upgrade
+1. To Update & upgrade
 
 ```
 sudo apt update
