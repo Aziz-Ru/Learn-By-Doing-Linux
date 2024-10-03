@@ -2,13 +2,49 @@
 
 ## Shortcuts                                                    
 - open Terminal ``Ctrl+Alt+T
-
-## Directory naviagtion
-- pwd   get the present working directory
-- cd    change directory
-- cd ~   change directory to home
-- cd ..  back to parent directory
   
+## Related 
+[FileSystem](https://github.com/Aziz-Ru/Linux-Problems/blob/main/filesystem.md)
+
+[Connecting to a Wi-Fi network in recovery mode on Ubuntu](https://github.com/kabyadeb/linux_debian/blob/main/connect%20wifi%20in%20recovery%20mode.md)
+
+
+## Linux flags
+Linux flags are special options or parameters that you can add to a command to modify its behavior or output. 
+- `-a` (all): This flag is used with commands like ls to show all files, including hidden ones.
+- `-l` (long): This flag is used with commands like ls to show detailed information about files, such as permissions, ownership, and modification times.
+- `-r` (recursive): This flag is used with commands like cp or rm to copy or delete files and directories recursively.
+- `-i` (interactive): This flag is used with commands like rm to prompt the user for confirmation before deleting files.
+### Directory naviagtion
+- `pwd`   get the present working directory
+- `cd`    change directory
+- `cd ~`   change directory to home
+- `cd ..`  back to parent directory
+### ls list files
+- `ls`     lists all files in the current directory except for hidden files.
+- `ls -l`    List the ﬁles and directories in the current directory in long (table) format
+- `ls -a `    List all the ﬁles including the hidden ones (File names starting with a . are hidden ﬁles in Linux).
+
+### chmod  change mode
+- `chmod <specification> fileNmae`        Change the ﬁle permissions. Speciﬁcations = u user, g group, o other, + add
+permission, - remove, r read, w write,x execute.
+command allows an administrator to set or modify a file’s permissions.
+
+### man
+The “man” command, short for manual, is a powerful tool in the Linux operating system that allows users to access detailed information about various commands, utilities, and system calls.
+
+example:
+- `man ls`   shows ls command information.
+
+### dpkg
+Dpkg is a low-level tool that is used to manage, build, install, and remove Debian packages in the Linux operating system
+- `-i`: flag use to install package
+- `-C` or `--audit`: Checks for partially installed packages.
+- `-s` or `--status`: Shows the status of a package.
+- `--unpack`: Unpacks the package, but does not configure it.
+- `--configure`: Configures a package which has been unpacked but not yet configured.
+- `-P` or `--purge`: Removes a package including its configuration files.
+
 ## List Of Necessary Commands
 
 1. To Update & upgrade
@@ -112,8 +148,3 @@ For example
 
 `alias install='sudo apt-get -y install'`
 
-jlnbhjbhhbewfa
-## Related 
-[FileSystem](https://github.com/Aziz-Ru/Linux-Problems/blob/main/filesystem.md)
-
-[Connecting to a Wi-Fi network in recovery mode on Ubuntu](https://github.com/kabyadeb/linux_debian/blob/main/connect%20wifi%20in%20recovery%20mode.md)
