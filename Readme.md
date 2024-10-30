@@ -1,4 +1,4 @@
-# Linux
+<h1 align=center> Linux </h1>
 
 ## Shortcuts                                                    
 - open Terminal ``Ctrl+Alt+T
@@ -35,6 +35,7 @@ The “man” command, short for manual, is a powerful tool in the Linux operati
 
 example:
 - `man ls`   shows ls command information.
+- `man dpkg` shows dpkg command information.
 
 ### dpkg
 Dpkg is a low-level tool that is used to manage, build, install, and remove Debian packages in the Linux operating system
@@ -109,9 +110,9 @@ sudo mount /dev/partition_name
 ## Common Desktop Server in Ubuntu
 
 GNOME (default in Ubuntu):
+Ubuntu Desktop uses GNOME as its default desktop environment. GNOME can run on both Xorg and Wayland.
+To check if Xorg is running, you can run:
 
-    Ubuntu Desktop uses GNOME as its default desktop environment. GNOME can run on both Xorg and Wayland.
-    To check if Xorg is running, you can run:
 
     `echo $XDG_SESSION_TYPE`
 
@@ -120,7 +121,7 @@ GNOME (default in Ubuntu):
 First Add endof the file _alsa-base.conf_ _options snd-hda-intel model=,dell-headset-multi_.To do this:
 
 ```
-Command: sudo nano /etc/modprobe.d/alsa-base.conf
+sudo nano /etc/modprobe.d/alsa-base.conf
 options snd-hda-intel model=,dell-headset-multi
 ```
 
