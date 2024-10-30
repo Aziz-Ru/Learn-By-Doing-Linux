@@ -1,7 +1,12 @@
 <h1 align=center> Linux </h1>
 
-## Shortcuts                                                    
-- open Terminal `Ctrl+Alt+T`
+## Useful Shortcuts  
+| Work  | Command |
+| ------------- | ------------- |
+| open Terminal  | `Ctrl+Alt+T`  |
+|close entire terminal|`Ctrl + Shift + Q`|
+
+
   
 ## Related 
 [FileSystem](https://github.com/Aziz-Ru/Linux-Problems/blob/main/filesystem.md)
