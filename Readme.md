@@ -1,7 +1,7 @@
 <h1 align=center> Linux </h1>
 
 ## Shortcuts                                                    
-- open Terminal ``Ctrl+Alt+T
+- open Terminal `Ctrl+Alt+T`
   
 ## Related 
 [FileSystem](https://github.com/Aziz-Ru/Linux-Problems/blob/main/filesystem.md)
