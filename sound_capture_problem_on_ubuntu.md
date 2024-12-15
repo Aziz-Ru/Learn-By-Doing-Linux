@@ -4,7 +4,7 @@ If you're facing issues with sound recording or online video calling where the s
 
 ## Modify the Configuration File
 
-Add the following line to the end of the /etc/alsa-base.conf file:
+Add the following line to the end of the `/etc/alsa-base.conf` file:
 
 ```
 options snd-hda-intel model=,dell-headset-multi
