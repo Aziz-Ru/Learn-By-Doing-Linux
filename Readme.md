@@ -6,7 +6,8 @@
 [FileSystem](https://github.com/Aziz-Ru/Linux-Problems/blob/main/filesystem.md)
 
 [Connecting to a Wi-Fi network in recovery mode on Ubuntu](https://github.com/kabyadeb/linux_debian/blob/main/connect%20wifi%20in%20recovery%20mode.md)
-[Sound Capture Problem On Ubuntu]()
+
+[Sound Capture Problem On Ubuntu](https://github.com/Aziz-Ru/Linux-Problems/blob/main/sound_capture_problem_on_ubuntu.md)
 
 ## Linux flags
 Linux flags are special options or parameters that you can add to a command to modify its behavior or output. 
