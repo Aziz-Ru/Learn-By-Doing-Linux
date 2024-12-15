@@ -1,20 +1,11 @@
 <h1 align=center> Linux </h1>
 
-## Useful Shortcuts  
-| Work  | Command |
-| ------------- | ------------- |
-| open Terminal  | `Ctrl+Alt+T`  |
-|close entire terminal|`Ctrl + Shift + Q`|
-
-
-  
-## Related 
-[reset your local repository to its initial state ](https://github.com/kabyadeb/linux_debian/blob/main/reset%20your%20local%20repository%20to%20its%20initial%20state.md)
+##  Related 
+[Reset your local repository to its initial state ](https://github.com/kabyadeb/linux_debian/blob/main/reset%20your%20local%20repository%20to%20its%20initial%20state.md)
 
 [FileSystem](https://github.com/Aziz-Ru/Linux-Problems/blob/main/filesystem.md)
 
 [Connecting to a Wi-Fi network in recovery mode on Ubuntu](https://github.com/kabyadeb/linux_debian/blob/main/connect%20wifi%20in%20recovery%20mode.md)
-
 
 ## Linux flags
 Linux flags are special options or parameters that you can add to a command to modify its behavior or output. 
