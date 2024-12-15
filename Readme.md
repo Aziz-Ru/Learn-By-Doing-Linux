@@ -1,13 +1,19 @@
 <h1 align=center> Linux </h1>
 
-##  Related 
-[Reset your local repository to its initial state ](https://github.com/kabyadeb/linux_debian/blob/main/reset%20your%20local%20repository%20to%20its%20initial%20state.md)
-
-[FileSystem](https://github.com/Aziz-Ru/Linux-Problems/blob/main/filesystem.md)
+## Problem On Ubuntu 
 
 [Connecting to a Wi-Fi network in recovery mode on Ubuntu](https://github.com/kabyadeb/linux_debian/blob/main/connect%20wifi%20in%20recovery%20mode.md)
 
 [Sound Capture Problem On Ubuntu](https://github.com/Aziz-Ru/Linux-Problems/blob/main/sound_capture_problem_on_ubuntu.md)
+
+## Basic Of Linux
+
+[FileSystem](https://github.com/Aziz-Ru/Linux-Problems/blob/main/filesystem.md)
+
+[Reset your local repository to its initial state ](https://github.com/kabyadeb/linux_debian/blob/main/reset%20your%20local%20repository%20to%20its%20initial%20state.md)
+
+
+
 
 ## Linux flags
 Linux flags are special options or parameters that you can add to a command to modify its behavior or output. 
