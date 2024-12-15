@@ -1,4 +1,4 @@
-## Sound Recording Problem On Ubunutu
+## Sound Capture Problem On Ubunutu
 
 If you're facing issues with sound recording or online video calling where the sound driver detects your microphone but doesn't capture sound, follow these steps to resolve the issue:
 
