@@ -13,6 +13,10 @@ Vim is a greatly improved version of the good old UNIX editor Vi. Many new featu
 
 This is the default mode in Vim ,Whenever vim starts you'll be in this mode. you can switch to any mode from this mode . You can not do this any other mode.
 
+|Single Movement| command |Prefixed Movement|command|
+-----------------------------------------------------
+|One Line Down|`j`|5 or 9 line down|`5j`|
+
 ### Insert Mode
 
 This mode is used to edit the contents of the file . You can switch to insert mode by pressing `i` or `a` . You can use `Esc` or `Cntl+c` or `cntl+[` to back command mode.
