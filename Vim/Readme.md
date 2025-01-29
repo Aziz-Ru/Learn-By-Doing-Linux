@@ -41,6 +41,9 @@ You can this mode to visually select some text and run commands over that sectio
 |Visual Line Mode|`shift+v`|
 |navigation visual line mode|`shift+v+j+....j` or `shift+v+k+...k`|
 
+## Horizontal Moving
+- f finding chracter
+
 
 
 
