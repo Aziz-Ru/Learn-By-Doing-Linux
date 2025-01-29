@@ -42,9 +42,24 @@ You can this mode to visually select some text and run commands over that sectio
 |navigation visual line mode|`shift+v+j+....j` or `shift+v+k+...k`|
 
 ## Horizontal Moving
-- f finding chracter
-
-
+- f finding chracter on line ,if want more need chracter to find add ;  it moves next occurance of line and , for backword direction
+- a insert mode at first chracter
+- A insert mode at the end of line.
+- i insert mode
+- I insert mode at first of line.
+- o make a new line go to insert mode
+- O make 
+- Ex for exploring the directory
+- vim . open current directory
+- Sex! for creating a window
+- q for quiting current window
+- e filename creating a filename
+- :!gcc % -o myfile  ! for running command in shell.
+- % is a special Vim symbol that represents the current file name.
+-o myfile specifies the output file for the compiled binary (you can name it whatever you like).
+- { or cntl+d for paragraph vertical up
+- } or cntl+u for paragraph vertical down
+- / for searching
 
 
 
