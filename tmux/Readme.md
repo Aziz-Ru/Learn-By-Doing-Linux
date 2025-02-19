@@ -17,7 +17,7 @@ To start using tmux, type tmux on your terminal. This command launches a tmux se
 ```
 tmux
 ```
-## prefix key : cntl + b
+####  prefix key :Cntl+B
 By default, the prefix is Ctrl+B. After that, press D to detach from the current session.
 
 - You can detach from your tmux session by pressing  `prefix  d`
@@ -25,7 +25,7 @@ By default, the prefix is Ctrl+B. After that, press D to detach from the current
 ## Basic tmux keybindings
 |Key|Work|
 |---|----|
-|Cntl+b d|detach from your tmux session by pressing |
+|Cntl+B d|detach from your tmux session by pressing |
 |Ctrl+B % | Split the window into two panes horizontally.|
 |Ctrl+B " | Split the window into two panes vertically.|
 |Ctrl+B |Arrow Key (Left, Right, Up, Down) — Move between panes.|
