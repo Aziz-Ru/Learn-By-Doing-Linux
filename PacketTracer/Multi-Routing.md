@@ -1,5 +1,7 @@
 # Multi Routing Network
 
+<img src="./img/2-router.png"/>
+
 ```
 [PC1]---Switch1---(192.168.1.1)Router1(192.168.3.4)---GE0/1
                                                |
@@ -43,19 +45,19 @@ exit
 ## Static Routing
 
 Commmand
+
 ```
 ip route destination musk next hope
 ```
 
 ### Router 1
+
 ```
 ip route 192.168.2.0 255.255.255.0 192.168.3.6
 ```
 
 ### Router 2
+
 ```
 ip route 192.168.1.0 255.255.255.0 192.168.3.4
 ```
-
-
-
