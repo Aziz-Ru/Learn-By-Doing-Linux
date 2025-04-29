@@ -1,5 +1,6 @@
 # Multi Routing Network
 
+<img src="./img/Screenshot from 2025-04-29 22-32-49.png"/>
 
 ## Router 0 configuration
 
@@ -14,12 +15,11 @@ exit
 
 interface gigabitEthernet 0/2
 ip address 11.0.0.2 255.0.0.0
-no shutdown 
+no shutdown
 exit
 ```
 
 ## Router 1 configuration
-
 
 ```
 en
@@ -32,7 +32,7 @@ exit
 
 interface gigabitEthernet 0/1
 ip address 10.0.0.1 255.0.0.0
-no shutdown 
+no shutdown
 exit
 ```
 
@@ -49,16 +49,18 @@ exit
 
 interface gigabitEthernet 0/2
 ip address 11.0.0.1 255.0.0.0
-no shutdown 
+no shutdown
 exit
 ```
 
 ## Static Routing
 
 ### Rules
+
 ```
 ip route destinationIp destinationMusk nextHop
 ```
+
 ### Router 0
 
 ```
@@ -66,41 +68,15 @@ ip route destinationIp destinationMusk nextHop
 Router(config)#ip route 172.16.0.0 255.255.0.0 11.0.0.1
 Router(config)#ip route 192.168.0.0 255.255.255.0 10.0.0.1
 ```
+
 ### Router 1
+
 ```
 ip route 172.16.0.0 255.255.0.0 10.0.0.2
 ```
+
 ### Router 2
 
 ```
 ip route 192.168.0.0 255.255.255.0 11.0.0.2
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
