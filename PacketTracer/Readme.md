@@ -190,6 +190,8 @@ ip route 192.168.10.0 255.255.255.0 10.0.0.100
 - As i connected router on switch 2, so i need to these port in vlan:
   let switch f0/10 connected router g0/0 and it working 192.168.10.1 so f0/10 must be connected to vlan 10.
 
+<img src="./img/multi_vlan_routing.png">
+
 ### Create 3 vlan Each Switch
 
 ### Router Configuration
