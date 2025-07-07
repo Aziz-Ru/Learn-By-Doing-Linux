@@ -177,11 +177,51 @@ ip route 192.168.10.0 255.255.255.0 10.0.0.100
 
 ```
 
+# Multi Level Vlan And Routing
 
+1. switch 1 has 3 vlan
+2. switch 2 has 3 vlan
+3. switch 3 has 3 vlan
 
+- 1.1,2.1,3.1 are in same vlan 10 and defualt gateway 192.168.10.1
+- 1.2,2.2,3.2 are in same vlan 20 and defualt gateway 192.168.20.1
+- 1.3,2.3,3.3 are in same vlan 30 and defualt gateway 192.168.30.1
 
+- As i connected router on switch 2, so i need to these port in vlan:
+  let switch f0/10 connected router g0/0 and it working 192.168.10.1 so f0/10 must be connected to vlan 10.
 
-#### Configure Switch port which connect to router
+### Create 3 vlan Each Switch
+
+### Router Configuration
+
+```
+en
+conf t
+
+## Network 1
+
+interface g0/0
+ip address 192.168.10.1 255.255.255.0
+no shutdown
+exit
+
+## Network 2
+
+interface g0/1
+ip address 192.168.20.1 255.255.255.0
+no shutdown
+exit
+
+## Network 3
+
+interface g0/2
+ip address 192.168.30.1 255.255.255.0
+no shutdown
+exit
+
+```
+
+### Configure Switch2 for Vlan
 
 ```
 enable
@@ -195,5 +235,10 @@ exit
 interface  fastEthernet 0/11
 switchport mode access
 switchport acess vlan 20
+exit
+
+interface  fastEthernet 0/12
+switchport mode access
+switchport acess vlan 30
 exit
 ```
