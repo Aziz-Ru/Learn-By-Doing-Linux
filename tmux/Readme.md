@@ -34,3 +34,6 @@ By default, the prefix is Ctrl+B. After that, press D to detach from the current
 |Ctrl+B N or P | Move to the next or previous window.|
 |Ctrl+B 0 (1,2...) | Move to a specific window by number.|
 |Ctrl+B ? | View all keybindings. Press Q to exit.|
+
+
+- List of all tmux `tmux attach -t 0`
