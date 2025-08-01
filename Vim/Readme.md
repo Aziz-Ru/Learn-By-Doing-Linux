@@ -31,6 +31,10 @@ This mode is used to edit the contents of the file . You can switch to insert mo
 
 ### Command line Mode
 You can use this mode to play around with some commands. But the commands in this mode are prefixed with a colon (:) . You can switch to this mode by : in command mode
+|Command|Details|
+|----|---|
+|:Ex|Explore Mode|
+|%| new file |
 
 ### Visual Mode
 
